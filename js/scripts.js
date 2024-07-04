@@ -19,7 +19,7 @@
 		// Create a countdown instance. Change the launchDay according to your needs.
 		// The month ranges from 0 to 11. I specify the month from 1 to 12 and manually subtract the 1.
 		// Thus the launchDay below denotes 7 October, 2017.
-		var launchDay = new Date(2024, 7 - 1, 5);
+		var launchDay = new Date(2024, 7 - 1, 6);
 		$('#timer').countdown({
 			until: launchDay
 		});
